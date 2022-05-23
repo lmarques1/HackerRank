@@ -34,7 +34,9 @@ public class Solutions {
             System.out.println("Weird");
         } else {
             System.out.println("Not Weird");
-        }*/
+        }
+
+        Exercise 4
 
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();
@@ -46,6 +48,31 @@ public class Solutions {
         System.out.println("String: " + s);
         System.out.println("Double: " + d);
         System.out.println("Int: " + i);
+        
+        Exercise 5 output formatting
+        
+        Scanner sc=new Scanner(System.in);
+            System.out.println("================================");
+            for(int i=0;i<3;i++){
+                String s1=sc.next();
+                int x=sc.nextInt();
+                System.out.printf("%-15s%03d\n", s1,x);
+            }
+            System.out.println("================================");
+
+            Exercise 5 Loops 1
+
+             for(int i =1; i <=10; i++){
+            
+            int multiplicador = N*i;
+            System.out.printf("%d x %d = %d\n", N, i, multiplicador);
+        }
+
+
+        */
+
+        
+
     }
     
 }
