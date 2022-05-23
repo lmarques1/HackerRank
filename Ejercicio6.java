@@ -1,8 +1,8 @@
-public class Ejercicio 7 {
-
-    import java.util.*;
+import java.util.*;
 import java.io.*;
 
+
+public class Ejercicio6 {
     public static void main(String []argh){
         Scanner in = new Scanner(System.in);
         int t=in.nextInt();
@@ -24,4 +24,3 @@ import java.io.*;
         in.close();
     }
 }
-
